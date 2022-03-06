@@ -6,11 +6,12 @@
 
 ```bash
 |
+|-- dev  # development assets
+|-- dist # production assets
+...
 |-- public/index.html
 |-- src/styles/override.css
 |-- src/app.js
-|-- dev  # development assets
-|-- dist # production assets
 ...
 ```
 
