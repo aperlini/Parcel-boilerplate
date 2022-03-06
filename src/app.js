@@ -1,0 +1,1 @@
+console.log("default ../src/app.js");
