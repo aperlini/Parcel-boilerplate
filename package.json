@@ -3,7 +3,7 @@
     "version": "1.0.1",
     "description": "",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "jest --watchAll --verbose",
         "build": "rm -rf build && parcel build public/index.html --dist-dir=dist",
         "start": "rm -rf dev && rm -rf ./.parcel-cache && parcel public/index.html --dist-dir=dev"
     },
@@ -11,8 +11,17 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@babel/preset-env": "^7.16.11",
+        "jest": "^27.5.1",
+        "jest-transform-stub": "^2.0.0",
         "parcel": "^2.3.2",
         "postcss-modules": "^4.3.1",
         "postcss-preset-env": "^7.4.2"
+    },
+    "jest": {
+        "transform": {
+            ".+\\.(css|png|jpg|svg)$": "jest-transform-stub",
+            "^.+\\.js$": "babel-jest"
+        }
     }
 }
