@@ -2,6 +2,8 @@
 
 > Starter template for building single page web applications using *Parcel* 
 
+![landing-app](landing-app.png) 
+
 ## Default project structure
 
 ```bash
