@@ -1,6 +1,6 @@
 # Parcel Boilerplate
 
-> Simple starter template for building single page web applications using *Parcel* 
+> Starter template for building single page web applications using *Parcel* 
 
 ## Default project structure
 
