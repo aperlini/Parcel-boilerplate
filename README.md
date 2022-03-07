@@ -1,8 +1,8 @@
 # Parcel Boilerplate
 
-> Simple *Javascript* starter template for building applications using *Parcel* 
+> Simple starter template for building single page web applications using *Parcel* 
 
-## Default project
+## Default project structure
 
 ```bash
 |
@@ -12,6 +12,7 @@
 |-- public/index.html
 |-- src/styles/override.css
 |-- src/app.js
+|-- tests/app.spec.js
 ...
 ```
 
@@ -44,5 +45,13 @@ $ npm start
 
 ```bash
 $ npm run build
+```
+
+## Test
+
+> Run tests with *Jest*
+
+```bash
+$ npm run test
 ```
 
