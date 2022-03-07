@@ -1,3 +1,26 @@
+:root {
+    --bs-dark-rgb: 55, 56, 78;
+    --bs-bg-opacity: 0.5;
+}
+
 body {
     font-family: sans-serif;
+    background-color: #737491;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    /* linear-gradient(to right, #766df4 0%, #766df4 30%, #6a9bf4 100%); */
 }
+
+section {
+    /* display: flex;
+    height: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center; */
+    /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
+    background: linear-gradient(to right, #000000 0%, #1a1748 1%, #252c3a 100%);
+}
+
+
+/* section {} */
