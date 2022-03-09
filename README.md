@@ -24,6 +24,7 @@
 | ------------------------------------------------------------ | ---------- |
 | [Node](https://nodejs.org/en/download/current/)              | 17.6.0     |
 | [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) | 8.5.1      |
+| [Parcel](https://parceljs.org/)                              | 1.12.3     |
 
 ## Installation
 
