@@ -28,6 +28,12 @@
 
 ## Installation
 
+> Install *parcel* globally
+
+```bash
+$  npm i -g parcel
+```
+
 > Install project and depedencies
 
 ```bash
