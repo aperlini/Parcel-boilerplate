@@ -1,7 +1,7 @@
 {
     "name": "parcel2-boilerplate",
     "version": "1.0.1",
-    "description": "Starter template for building applications using Parcel",
+    "description": "Starter template for building web applications using Parcel",
     "scripts": {
         "test": "jest --watchAll --verbose",
         "build": "rm -rf build && parcel build public/index.html --dist-dir=dist",
