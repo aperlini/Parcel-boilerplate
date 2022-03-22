@@ -2,7 +2,7 @@
 
 > Starter template for building single page web applications using *Parcel* 
 
-![landing-app](landing-app.png) 
+![landing-app](img/landing-app.png) 
 
 ## Default project structure
 
@@ -28,39 +28,39 @@
 
 ## Installation
 
-> Install *parcel* globally
+Install *parcel* globally
 
 ```bash
-$  npm i -g parcel
+npm i -g parcel
 ```
 
-> Install project and depedencies
+Install project and depedencies
 
 ```bash
-$ npm install
+npm install
 ```
 
 ## Run
 
-> Run dev server - http://localhost:1234
+Run dev server - http://localhost:1234
 
 ```bash
-$ npm start
+npm start
 ```
 
 ## Build
 
-> Build for production in *dist* folder
+Build for production in *dist* folder
 
 ```bash
-$ npm run build
+npm run build
 ```
 
 ## Test
 
-> Run tests with *Jest*
+Run tests with *Jest*
 
 ```bash
-$ npm run test
+npm run test
 ```
 
